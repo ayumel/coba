@@ -1,23 +1,23 @@
-name: Confluence Publisher                #penamaan untuk judul pada github action. bisa diisi apasaja
+name: Confluence Publisher               
 
 on:
   push:
      tags: 
-       - 'v*-bpa'                         #triger untuk menjalankan github action. ini menggunakan tag pada release. "-bpa" dapat difanti apasaja.
+       - 'v*-bpa'                        
 jobs:
     build:
   
-      runs-on: ubuntu-latest              #paten
+      runs-on: ubuntu-latest             
   
       steps:
-      - uses: actions/checkout@v2         #paten
-      - name: Set up JDK 1.8              #paten
-        uses: actions/setup-java@v1       #paten
+      - uses: actions/checkout@v2        
+      - name: Set up JDK 1.8             
+        uses: actions/setup-java@v1      
         with:
-          java-version: 1.8               #paten
+          java-version: 1.8              
       - name: Build with Maven
         env:
-          username: ${{ secrets.ID}}
-          password: ${{ secrets.TOKEN}}
+          username: ${{ secrets.ID_AYUMEL}}
+          password: ${{ secrets.PASS_AYUMEL}}
         run: mvn org.sahli.asciidoc.confluence.publisher:asciidoc-confluence-publisher-maven-plugin:publish --file pom.xml -Dusername=$username -Dpassword=$password
         # "--file pom.xml" tergantung tempat peletakan contoh di dalam dokumen "--file nama-document/pom.xml". dan juga penamaan pom dapat ditambahi untuk dokumen yang ingin di publish dalam confluence.
