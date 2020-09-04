@@ -27,13 +27,13 @@
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>              <!-- default seting with maven -->
      <version>0.10.0</version>                                                      <!-- paten dengan versi confluence -->
       <configuration>
-        <asciidocRootFolder>folder-system-name</asciidocRootFolder>                 <!-- pilih folder yang ada file-system-name.adoc dan folder-system-name yang akan di publish-->
+        <asciidocRootFolder>docs</asciidocRootFolder>                 <!-- pilih folder yang ada file-system-name.adoc dan folder-system-name yang akan di publish-->
         <sourceEncoding>UTF-8</sourceEncoding>                                      <!-- default -->
         <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>   <!-- menuju pada database web -->
         <skipSslVerification></skipSslVerification>                                 <!-- dikosongi saja -->
         <maxRequestsPerSecond></maxRequestsPerSecond>                               <!-- dikosongi saja -->
-        <spaceKey>Key-Spaces-Confluence</spaceKey>                                  <!-- diambil dari work flow -->
-        <ancestorId>nomer-page-confluence</ancestorId>                              <!-- diambil dari page yang akan di tempatoi untuk publish -->
+        <spaceKey>SYS</spaceKey>                                  <!-- diambil dari work flow -->
+        <ancestorId>101680455</ancestorId>                              <!-- diambil dari page yang akan di tempatoi untuk publish -->
         <username>${username}</username>                                            <!-- diambil dari work flow -->
         <password>${password}</password>                                            <!-- diambil dari work flow -->
         <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>                 <!-- digunakan untuk keep folder yang ada -->
