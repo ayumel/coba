@@ -4,4 +4,4 @@
 
 == Dokumentasi
 
-<<proteus-mawar/url-proteus-mawar.adoc#, URL System Proteus Mawar>>
+<<proteus-mawar/url-proteus-mawar.adoc#, System URL Proteus Mawar>>
