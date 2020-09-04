@@ -1,1 +1,44 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2016-2017 the original author or authors.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+  
+<project>
+<modelVersion>4.0.0</modelVersion>
+ <groupId>org.alterra.id</groupId>                                                  <!-- diisi untuk alias saja -->
+    <artifactId>migrasi</artifactId>                                                <!-- penamaan terserah -->
+    <version>1</version>                                                            <!-- versi sesuai updatena dari pembuat -->
+<build>
+  <plugins>
+    <plugin>
+   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>                       <!-- paten dari pembuat script -->
+   <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>              <!-- default seting with maven -->
+     <version>0.10.0</version>                                                      <!-- paten dengan versi confluence -->
+      <configuration>
+        <asciidocRootFolder>folder-system-name</asciidocRootFolder>                 <!-- pilih folder yang ada file-system-name.adoc dan folder-system-name yang akan di publish-->
+        <sourceEncoding>UTF-8</sourceEncoding>                                      <!-- default -->
+        <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>   <!-- menuju pada database web -->
+        <skipSslVerification></skipSslVerification>                                 <!-- dikosongi saja -->
+        <maxRequestsPerSecond></maxRequestsPerSecond>                               <!-- dikosongi saja -->
+        <spaceKey>Key-Spaces-Confluence</spaceKey>                                  <!-- diambil dari work flow -->
+        <ancestorId>nomer-page-confluence</ancestorId>                              <!-- diambil dari page yang akan di tempatoi untuk publish -->
+        <username>${username}</username>                                            <!-- diambil dari work flow -->
+        <password>${password}</password>                                            <!-- diambil dari work flow -->
+        <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>                 <!-- digunakan untuk keep folder yang ada -->
+      </configuration>
+    </plugin>
+    </plugins>
+</build>
+</project>
