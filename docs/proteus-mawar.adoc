@@ -1,7 +1,61 @@
-= Proteus Mawar
+= *Proteus Mawar*
+:--[no-]html-to-native:
+:author: Adam Abhi N
+:date: 2019-11-19
+:document type: 6
+:summary: Proteus Mawar adalah microservice yang menangani request untuk transaksi dari channel Telegram dan SMS
 
-== Overview
+== *Summary*
 
-== Dokumentasi
+Proteus Mawar adalah _microservice_ yang menangani _request_ untuk transaksi dari channel Telegram dan SMS, nantinya setiap transaksi akan diteruskan ke GM (Proteus ini merupakan Proteus In versi khusus untuk Alphapay saja).
 
-<<proteus-mawar/url-proteus-mawar.adoc#, System URL Proteus Mawar>>
+Dikarenakan Proteus Mawar ini menggunakan _Event-driven Architecture_ yang sangat berbeda dengan _API-driven Architecture,_ maka di microservice ini tidak ada API doc-nya, karena tidak ada endpoint yang spesifik yang bisa dihit.
+Bisa dikatakan, Proteus Mawar ini formatnya sudah ditentukan dari awal dalam suatu _event._
+
+*(Contoh format dapat dilihat di Page Format Request di bawah)*
+
+== *Anggota Tim Proteus Mawar*
+
+|===
+| *Posisi* | *Nama* | *Tim*
+
+| Product Owner
+| Leo Himawan Adiakso
+| Putterfish
+
+| Development Manager
+| Evan Sujanto
+| Putterfish
+
+| Lead Software Engineer
+| Kevin Setiawan Tanzil
+| Putterfish
+
+| Lead Quality Engineer
+| Fransiska Maya
+| Pangolin
+
+| Lead System Analyst
+| Fiqri Aulia Rahman
+| Strix
+|===
+
+== *Informasi Teknis*
+
+link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-achitecture[*Architecture*]
+
+link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-url[*URL System*]
+
+link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-technology[*Technology*]
+
+link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-environment[*Environment*]
+
+link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-release-and-deployment[*Release and Deployment*]
+
+== *Onboarding Information*
+
+https://github.com/sepulsa/proteus-mawar[*SE Onboarding*]
+
+== *Dokumentasi*
+
+link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-unit-request[*Format Request*]
