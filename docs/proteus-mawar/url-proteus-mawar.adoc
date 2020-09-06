@@ -1,9 +1,9 @@
-= *System URL Proteus Mawar*
+= System URL Proteus Mawar
 
 Berikut merupakan tautan dari sistem Proteus Mawar:
 
 |===
-| *Environment* | *URL*
+| Environment | URL
 
 | Development
 |
