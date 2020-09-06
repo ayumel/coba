@@ -40,17 +40,19 @@ Bisa dikatakan, Proteus Mawar ini formatnya sudah ditentukan dari awal dalam sua
 | Strix
 |===
 
-== *Informasi Teknis*
 
-link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-achitecture[*Architecture*]
+== Technical Information
 
-link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-url[*URL System*]
+<<docs-proteus-mawar/url-proteus-mawar.adoc#, System URL Proteus Mawar>>
 
-link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-technology[*Technology*]
+<<docs-proteus-mawar/architecture-proteus-mawar.adoc#, Architecture Proteus Mawar>>
 
-link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-environment[*Environment*]
+<<docs-proteus-mawar/technology-proteus-mawar.adoc#, Technology Proteus Mawar>>
 
-link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-release-and-deployment[*Release and Deployment*]
+<<docs-proteus-mawar/environment-proteus-mawar.adoc#, Environment Proteus Mawar>>
+
+<<docs-proteus-mawar/release-deploy-proteus-mawar.adoc#, Release and Deployment Proteus Mawar>>
+
 
 == *Onboarding Information*
 
