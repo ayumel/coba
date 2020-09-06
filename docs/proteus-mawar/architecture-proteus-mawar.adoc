@@ -1,4 +1,4 @@
-= *Architecture*
+= *Architecture Proteus Mawar*
 :--[no-]html-to-native:
 :author: Adam Abhi N
 :date: 2019-11-19
@@ -7,7 +7,7 @@
 
 Berikut ini merupakan _High Level Architecture_ dari Proteus Mawar :
 
-image::./images/proteus-mawar-hla.png[]
+image::images-proteus-mawar/hla.png[hla-proteus-mawar
 
 . Proteus Mawar menangani transaksi dari Channel Telegram dan Channel SMS melalui sistem Chipmunk.
 . Proteus Mawar meneruskan _request_ transaksi ke GM, untuk dicatat transaksi di DB GM.
