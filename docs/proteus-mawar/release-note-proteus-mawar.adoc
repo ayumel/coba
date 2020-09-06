@@ -1,9 +1,4 @@
 = *Release Note Proteus Mawar*
-:--[no-]html-to-native:
-:author: Adam Abhi N
-:date: 2019-11-19
-:document type: 6
-:summary: Berikut adalah release note Proteus Mawar
 
 Berikut adalah _release note_ Proteus Mawar
 
