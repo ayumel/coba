@@ -1,4 +1,4 @@
-= *Unit Request Proteus Mawar*
+= Unit Request Proteus Mawar
 
 Untuk format _request_ melalui _channel_ SMS di Proteus Mawar, sama dengan Proteus In.
 Anda dapat mengakses format tersebut dalam _link_ berikut :
