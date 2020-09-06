@@ -1,4 +1,4 @@
-= *Environment Proteus Mawar*
+= Environment Proteus Mawar
 
 Berikut merupakan _environment_ sistem Proteus Mawar:
 
