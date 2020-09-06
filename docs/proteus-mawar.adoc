@@ -43,15 +43,15 @@ Bisa dikatakan, Proteus Mawar ini formatnya sudah ditentukan dari awal dalam sua
 
 == Technical Information
 
-<<docs-proteus-mawar/url-proteus-mawar.adoc#, System URL Proteus Mawar>>
+<<proteus-mawar/url-proteus-mawar.adoc#, System URL Proteus Mawar>>
 
-<<docs-proteus-mawar/architecture-proteus-mawar.adoc#, Architecture Proteus Mawar>>
+<<proteus-mawar/architecture-proteus-mawar.adoc#, Architecture Proteus Mawar>>
 
-<<docs-proteus-mawar/technology-proteus-mawar.adoc#, Technology Proteus Mawar>>
+<<proteus-mawar/technology-proteus-mawar.adoc#, Technology Proteus Mawar>>
 
-<<docs-proteus-mawar/environment-proteus-mawar.adoc#, Environment Proteus Mawar>>
+<<proteus-mawar/environment-proteus-mawar.adoc#, Environment Proteus Mawar>>
 
-<<docs-proteus-mawar/release-deploy-proteus-mawar.adoc#, Release and Deployment Proteus Mawar>>
+<<proteus-mawar/release-deploy-proteus-mawar.adoc#, Release and Deployment Proteus Mawar>>
 
 
 == *Onboarding Information*
