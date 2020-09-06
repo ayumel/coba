@@ -1,0 +1,10 @@
+= *Developer Onboarding*
+:--[no-]html-to-native:
+:author: Ayu Anindita
+:date: 2020-17-03
+:document type: 6
+:summary: Dokumen ini berisi tentang informasi *developer onboarding* sistem proteus mawar
+
+Berikut adalah langkah - langkah untuk _developer onboarding_ Proteus Mawar:
+
+https://github.com/sepulsa/proteus-mawar

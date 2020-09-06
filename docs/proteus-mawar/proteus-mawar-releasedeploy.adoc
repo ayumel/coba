@@ -1,0 +1,56 @@
+= *Release and Deployment*
+:--[no-]html-to-native:
+:author: Adam Abhi N
+:date: 2019-11-19
+:document type: 6
+:summary: Proteus Mawar release and deployment
+
+== *Release*
+
+=== *Step for Release*
+
+. Cek _task Release_ pada Pivotal Tracker.
+. Buat dokumentasi _release_.
+Data yang penting adalah sebagai berikut:
+ ** Pivotal Tracker ID,
+ ** Pivotal Tracker Task URL,
+ ** Judul _Release_,
+ ** List _task_ yang akan _release_,
+ ** _File list_ (berdasarkan _list task_),
+ ** _Configuration list_ (berdasarkan _list task_),
+ ** Github _release_,
+ ** _New Relic Deployment command_.
+. Persiapkan lokal git untuk _merge-in_ _task_ yang akan _release_.
+ ** `git checkout prod`
+ ** `git fetch origin`
+ ** `git merge origin/prod` (pastikan berada di revisi prod terbaru).
+Jika tidak, lakukan `git reset --hard [HASH-REVISION-PROD]`
+ ** `git checkout -b [RELEASEBRANCH-NEW]` (apapun kondisinya, _release branch_ harus baru)
+ ** _Looping for each task_.
+  ... `git checkout [TASKBRANCH]`
+  ... `git merge origin/[TASKBRANCH]`
+  ... `git checkout [RELEASEBRANCH-NEW]`
+  ... `git merge --no-ff [TASKBRANCH]` (resolve conflict)
+  ... Catat daftar _file_ yang berubah.
+  ... `git push origin [RELEASEBRANCH-NEW]`
+  ... Catat daftar konfigurasi yang diperlukan.
+  ... _End of looping_.
+ ** `git checkout prod`
+ ** `git merge --no-ff [RELEASEBRANCH-NEW]`
+ ** `git push origin prod`
+ ** `git checkout dev`
+ ** `git merge origin/dev`
+ ** `git merge --ff prod`
+ ** `git push origin dev`
+ ** `git checkout -b [SPRINTBRANCH-NEW]`
+ ** `git push origin [SPRINTBRANCH-NEW]`
+ ** `git checkout -b [NEXTRELEASEBRANCH]`
+ ** `git push origin [NEXTRELEASEBRANCH]`
+. Buat Github Release https://github.com/sepulsa/proteus-in-go
+. _Deploy_ dilakukan oleh Travis
+
+== *Deployment*
+
+=== *Jadwal Deploy*
+
+Untuk jadwal _deploy_ Proteus In ini bersifat tentatif, biasanya rilis _deployment_ dilakukan sebelum ada jadwal Sprint Review.

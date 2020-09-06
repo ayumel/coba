@@ -1,0 +1,62 @@
+= *Environment*
+:--[no-]html-to-native:
+:author: Adam Abhi N
+:date: 2019-12-24
+:document type: 6
+:summary: Berikut merupakan environment sistem Proteus Mawar
+
+Berikut merupakan _environment_ sistem Proteus Mawar:
+
+|===
+| *Environment* | *Spesifikasi* | *Deskripsi* |
+
+| *Staging*
+| URL
+| https://proteusmawar.sumpahpalapa.com
+|
+
+|
+| MonggoDB
+| MONGODB - From outside
+| 13.251.45.165
+
+|
+|
+| From internal apps AWS
+| 10.1.6.15
+
+|
+|
+| Username
+| *****
+
+|
+|
+| password
+| *****
+
+|
+|
+| DB name
+| proteusmawar
+
+|
+| Rabbit MQ
+| IP rabbitmq
+| 10.1.6.237
+
+|
+|
+| public dashboard : 18.138.103.234
+|
+
+|
+|
+| username
+| *****
+
+|
+|
+| pass
+| ***** (Silakan menghubungi Tim Proteus Mawar untuk mendapatkan akses)
+|===
