@@ -1,8 +1,8 @@
-= *Release and Deployment Proteus Mawar*
+= Release and Deployment Proteus Mawar
 
-== *Release*
+== Release*=
 
-=== *Step for Release*
+=== Step for Release
 
 . Cek _task Release_ pada Pivotal Tracker.
 . Buat dokumentasi _release_.
@@ -44,8 +44,8 @@ Jika tidak, lakukan `git reset --hard [HASH-REVISION-PROD]`
 . Buat Github Release https://github.com/sepulsa/proteus-in-go
 . _Deploy_ dilakukan oleh Travis
 
-== *Deployment*
+== Deployment
 
-=== *Jadwal Deploy*
+=== Jadwal Deploy
 
 Untuk jadwal _deploy_ Proteus In ini bersifat tentatif, biasanya rilis _deployment_ dilakukan sebelum ada jadwal Sprint Review.
