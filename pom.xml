@@ -27,7 +27,7 @@
    <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>              
      <version>0.10.0</version>                                                      
       <configuration>
-        <asciidocRootFolder>proteus-mawar</asciidocRootFolder>                 
+        <asciidocRootFolder>docs</asciidocRootFolder>                 
         <sourceEncoding>UTF-8</sourceEncoding>                                      
         <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>   
         <skipSslVerification></skipSslVerification>                                 
