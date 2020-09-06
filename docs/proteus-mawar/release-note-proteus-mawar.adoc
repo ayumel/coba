@@ -1,4 +1,4 @@
-= *Informasi Rilis Proteus Mawar*
+= *Release Note Proteus Mawar*
 :--[no-]html-to-native:
 :author: Adam Abhi N
 :date: 2019-11-19
