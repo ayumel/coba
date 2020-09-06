@@ -1,9 +1,4 @@
 = *Technology Proteus Mawar*
-:--[no-]html-to-native:
-:author: Adam Abhi N
-:date: 2019-12-24
-:document type: 6
-:summary: Berikut adalah technology yang digunakan dalam pengembangan Proteus Mawar
 
 Berikut adalah _technology_ yang digunakan dalam pengembangan Proteus Mawar :
 
