@@ -1,4 +1,4 @@
-= *Architecture Proteus Mawar*
+= Architecture Proteus Mawar
 
 Berikut ini merupakan _High Level Architecture_ dari Proteus Mawar :
 
