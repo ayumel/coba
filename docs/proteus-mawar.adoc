@@ -1,18 +1,18 @@
-= *Proteus Mawar*
+= Proteus Mawar
 
-== *Summary*
+== Summary
 
 Proteus Mawar adalah _microservice_ yang menangani _request_ untuk transaksi dari channel Telegram dan SMS, nantinya setiap transaksi akan diteruskan ke GM (Proteus ini merupakan Proteus In versi khusus untuk Alphapay saja).
 
 Dikarenakan Proteus Mawar ini menggunakan _Event-driven Architecture_ yang sangat berbeda dengan _API-driven Architecture,_ maka di microservice ini tidak ada API doc-nya, karena tidak ada endpoint yang spesifik yang bisa dihit.
 Bisa dikatakan, Proteus Mawar ini formatnya sudah ditentukan dari awal dalam suatu _event._
 
-*(Contoh format dapat dilihat di Page Format Request di bawah)*
+(Contoh format dapat dilihat di Page Format Request di bawah)
 
-== *Anggota Tim Proteus Mawar*
+== Anggota Tim Proteus Mawar
 
 |===
-| *Posisi* | *Nama* | *Tim*
+| Posisi | Nama | Tim
 
 | Product Owner
 | Leo Himawan Adiakso
@@ -49,10 +49,10 @@ Bisa dikatakan, Proteus Mawar ini formatnya sudah ditentukan dari awal dalam sua
 <<proteus-mawar/release-deploy-proteus-mawar.adoc#, Release and Deployment Proteus Mawar>>
 
 
-== *Onboarding Information*
+== Onboarding Information
 
-https://github.com/sepulsa/proteus-mawar[*SE Onboarding*]
+https://github.com/sepulsa/proteus-mawar
 
-== *Dokumentasi*
+== Dokumentasi
 
 <<proteus-mawar/unit-request-proteus-mawar.adoc#, Unit Request Proteus Mawar>>
