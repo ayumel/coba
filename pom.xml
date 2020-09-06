@@ -17,26 +17,26 @@
   
 <project>
 <modelVersion>4.0.0</modelVersion>
- <groupId>org.alterra.id</groupId>                                                  <!-- diisi untuk alias saja -->
-    <artifactId>migrasi</artifactId>                                                <!-- penamaan terserah -->
-    <version>1</version>                                                            <!-- versi sesuai updatena dari pembuat -->
+ <groupId>org.alterra.id</groupId>                                                  
+    <artifactId>migrasi</artifactId>                                                
+    <version>1</version>                                                            
 <build>
   <plugins>
     <plugin>
-   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>                       <!-- paten dari pembuat script -->
-   <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>              <!-- default seting with maven -->
-     <version>0.10.0</version>                                                      <!-- paten dengan versi confluence -->
+   <groupId>org.sahli.asciidoc.confluence.publisher</groupId>                       
+   <artifactId>asciidoc-confluence-publisher-maven-plugin</artifactId>              
+     <version>0.10.0</version>                                                      
       <configuration>
-        <asciidocRootFolder>docs</asciidocRootFolder>                 <!-- pilih folder yang ada file-system-name.adoc dan folder-system-name yang akan di publish-->
-        <sourceEncoding>UTF-8</sourceEncoding>                                      <!-- default -->
-        <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>   <!-- menuju pada database web -->
-        <skipSslVerification></skipSslVerification>                                 <!-- dikosongi saja -->
-        <maxRequestsPerSecond></maxRequestsPerSecond>                               <!-- dikosongi saja -->
-        <spaceKey>SYS</spaceKey>                                  <!-- diambil dari work flow -->
-        <ancestorId>101680455</ancestorId>                              <!-- diambil dari page yang akan di tempatoi untuk publish -->
-        <username>${username}</username>                                            <!-- diambil dari work flow -->
-        <password>${password}</password>                                            <!-- diambil dari work flow -->
-        <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>                 <!-- digunakan untuk keep folder yang ada -->
+        <asciidocRootFolder>proteus-mawar</asciidocRootFolder>                 
+        <sourceEncoding>UTF-8</sourceEncoding>                                      
+        <rootConfluenceUrl>https://alterra.atlassian.net/wiki</rootConfluenceUrl>   
+        <skipSslVerification></skipSslVerification>                                 
+        <maxRequestsPerSecond></maxRequestsPerSecond>                               
+        <spaceKey>SYS</spaceKey>                                  
+        <ancestorId>102596692</ancestorId>                              
+        <username>${username}</username>                                          
+        <password>${password}</password>                                           
+        <orphanRemovalStrategy>KEEP_ORPHANS</orphanRemovalStrategy>                
       </configuration>
     </plugin>
     </plugins>
