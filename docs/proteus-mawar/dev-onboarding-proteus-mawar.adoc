@@ -1,4 +1,4 @@
-= *Developer Onboarding Proteus Mawar*
+= Developer Onboarding Proteus Mawar
 
 Berikut adalah langkah - langkah untuk _developer onboarding_ Proteus Mawar:
 
