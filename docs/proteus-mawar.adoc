@@ -60,4 +60,4 @@ https://github.com/sepulsa/proteus-mawar[*SE Onboarding*]
 
 == *Dokumentasi*
 
-link:/Business-Initiatives/Traditional#Proteus-Mawar/proteus-mawar-unit-request[*Format Request*]
+<<proteus-mawar/unit-request-proteus-mawar.adoc#, Unit Request Proteus Mawar>>
