@@ -1,9 +1,4 @@
 = *Release and Deployment Proteus Mawar*
-:--[no-]html-to-native:
-:author: Adam Abhi N
-:date: 2019-11-19
-:document type: 6
-:summary: Proteus Mawar release and deployment
 
 == *Release*
 
