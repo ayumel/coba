@@ -1,9 +1,9 @@
-= *Technology Proteus Mawar*
+= Technology Proteus Mawar
 
 Berikut adalah _technology_ yang digunakan dalam pengembangan Proteus Mawar :
 
 |===
-| *Specification* | *Name*
+| Specification | *Name*
 
 | OS
 | -
