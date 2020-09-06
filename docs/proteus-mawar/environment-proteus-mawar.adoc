@@ -1,9 +1,4 @@
 = *Environment Proteus Mawar*
-:--[no-]html-to-native:
-:author: Adam Abhi N
-:date: 2019-12-24
-:document type: 6
-:summary: Berikut merupakan environment sistem Proteus Mawar
 
 Berikut merupakan _environment_ sistem Proteus Mawar:
 
