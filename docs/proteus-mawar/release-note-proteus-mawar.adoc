@@ -1,4 +1,4 @@
-= *Release Note Proteus Mawar*
+= Release Note Proteus Mawar
 
 Berikut adalah _release note_ Proteus Mawar
 
