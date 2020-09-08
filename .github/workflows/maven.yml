@@ -19,5 +19,5 @@ jobs:
         env:
           username: ${{ secrets.ID_AYUMEL}}
           password: ${{ secrets.PASS_AYUMEL}}
-        run: mvn org.sahli.asciidoc.confluence.publisher:asciidoc-confluence-publisher-maven-plugin:publish --file BPA/pom.xml -Dusername=$username -Dpassword=$password
+        run: mvn org.sahli.asciidoc.confluence.publisher:asciidoc-confluence-publisher-maven-plugin:publish --file pom.xml -Dusername=$username -Dpassword=$password
 
